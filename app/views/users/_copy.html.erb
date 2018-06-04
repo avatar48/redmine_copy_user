@@ -1,0 +1,5 @@
+
+  <p>
+    <%= label_tag 'Скопировать права' %> 
+    <%= collection_select(:copy, :copy_id, Principal.all, :id, :name, prompt: true, :selected => @copy_user) %>
+  </p>
