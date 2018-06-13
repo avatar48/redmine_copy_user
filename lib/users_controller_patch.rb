@@ -1,5 +1,5 @@
 require_dependency 'users_controller'
-module MegaCalendar
+module CopyUser
   module UsersControllerPatch
     def self.included(base)
       base.class_eval do
@@ -26,6 +26,6 @@ module MegaCalendar
   end
 end
 
-MegaCalendar::UsersControllerPatch.tap do |mod|
+CopyUser::UsersControllerPatch.tap do |mod|
   UsersController.send :include, mod unless UsersController.include?(mod)
 end

@@ -1,5 +1,7 @@
 
+<% if params[:action].eql?("new") %>
   <p>
     <%= label_tag l(:copy_role) %>
-    <%= collection_select(:copy, :copy_id, Principal.where('id > 4'), :id, :name, prompt: true, :selected => @copy_user) %>
+    <%= collection_select(:copy, :copy_id, Principal.where(type: 'User'), :id, :name, prompt: true, :selected => @copy_user) %>
   </p>
+<% end %>
