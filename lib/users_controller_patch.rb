@@ -6,7 +6,7 @@ module CopyUser
         # Insert overrides here, for example:
         def new_with_plugin
           new_without_plugin
-          @users = User.all
+          @allow_parcial = Principal.where(type: 'User')
           @copy_user = Principal.find(params[:copy_user]).id if params.has_key?(:copy_user) 
         end
         def create_with_plugin
