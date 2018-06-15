@@ -7,7 +7,7 @@ The plugin adds the ability to create a new user by copying. When copying a user
 * Go to the plugins directory Redmine: `cd /srv/redmine/plugins`
 * Download the latest version: `wget https://github.com/avatar48/redmine_copy_user/archive/master.zip`
 * Unpack: `unzip master.zip`
-* Rename: `mv redmine_copy_user-master redmine_copy_user`
+* Rename: `mv redmine_copy_user-master copy_users`
 
 
 ***
