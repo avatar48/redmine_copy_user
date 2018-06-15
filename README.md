@@ -1,24 +1,21 @@
 # redmine_copy_user
-Плагин позволяет копировать пользователей вместе с их правами на проекты.
+The plugin adds the ability to create a new user by copying. When copying a user is assigned to participate in projects.
 
 ***
 
-## Установка. 
-* Передите в директорию плагинов Redmine: `cd /srv/redmine/plugins`
-* Скачайте последнюю версию: `wget https://github.com/avatar48/redmine_copy_user/archive/master.zip`
-* Распакауйте архив: `unzip master.zip`
-* Переименуйте: `mv redmine_copy_user-master redmine_copy_user`
+## Installation. 
+* Go to the plugins directory Redmine: `cd /srv/redmine/plugins`
+* Download the latest version: `wget https://github.com/avatar48/redmine_copy_user/archive/master.zip`
+* Unpack: `unzip master.zip`
+* Rename: `mv redmine_copy_user-master redmine_copy_user`
 
 
 ***
-## Использование. 
-В разделе Администрирование - Пользователи, напротив каждого элемента списка, появится ссылка "Копировать". 
+## Usage. 
+In section Administration - Users, opposite each item in the list, a "Copy" link appears.
 <br>
-![Пользователи](https://i.imgur.com/V4Y7jjx.png)
-<br>
+![Users](https://i.imgur.com/RP4iwz7.png)
 
-При нажатии на ссылку откроется форма создания нового пользователя где в поле 'Скопировать права' будет указан пользователь с которого будут скопированы права на проекты.
 <br>
-![](https://i.imgur.com/3RIgluF.png)
-
-Также, при создании нового пользователя можно выбрать, в выпадающем списке, с кого скопировать права.
+Clicking on link will open form for creating a new user where the 'Copy project from' field will specify the user from whom rights to the projects will be copied.<br>
+Also, when creating a new user, you can choose, from the drop-down list, from whom to copy the projects.

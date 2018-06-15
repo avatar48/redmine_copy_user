@@ -1,4 +1,4 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
-  copy_role: Copy role from
+  copy_role: Copy project from
